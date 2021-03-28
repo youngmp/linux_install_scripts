@@ -6,7 +6,7 @@ sudo apt-get upgrade
 
 sudo apt-get -y -f install kile okular pdftk
 sudo apt-get -y -f install xppaut gimp vlc guake htop
-sudo apt-get -y -f install python-numpy python-scipy python-matplotlib ipython r-base
+sudo apt-get -y -f install python3-numpy python3-scipy python3-matplotlib ipython r-base
 sudo apt-get -y -f install emacs pyflakes pymacs
 sudo apt-get -y -f install openjdk-6-jre
 sudo apt-get -y -f install vncviewer
