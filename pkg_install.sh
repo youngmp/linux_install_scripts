@@ -11,12 +11,18 @@ sudo apt -y -f install emacs pyflakes pymacs
 sudo apt -y -f install openjdk-6-jre
 sudo apt -y -f install vncviewer
 sudo apt -y -f install git
+
+# latex/matplotlib compatibility
+sudo apt -y install texlive-science cm-super texlive-latex-extra texlive
+
+
 git config --global user.name "youngmp"
 git config --global user.email "ympark1988@gmail.com"
 git config --global core.editor emacs
 
 sudo apt autoremove
 sudo apt clean
+
 
 # get dropbox and google chrome
 
