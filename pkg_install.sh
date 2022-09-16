@@ -4,7 +4,7 @@
 sudo apt -y update
 sudo apt -y upgrade
 
-sudo apt -y -f install okular pdftk ipython r-base emacs
+sudo apt -y -f install texstudio okular pdftk ipython r-base emacs
 sudo apt -y -f install gimp vlc htop
 #sudo apt -y -f install openjdk-6-jre
 #sudo apt -y -f install vncviewer
