@@ -4,12 +4,10 @@
 sudo apt -y update
 sudo apt -y upgrade
 
-sudo apt -y -f install kile okular pdftk
-sudo apt -y -f install xppaut gimp vlc guake htop
-sudo apt -y -f install python3-numpy python3-scipy python3-matplotlib ipython r-base
-sudo apt -y -f install emacs pyflakes pymacs
-sudo apt -y -f install openjdk-6-jre
-sudo apt -y -f install vncviewer
+sudo apt -y -f install okular pdftk ipython r-base emacs
+sudo apt -y -f install gimp vlc htop
+#sudo apt -y -f install openjdk-6-jre
+#sudo apt -y -f install vncviewer
 sudo apt -y -f install git
 
 # latex/matplotlib compatibility
